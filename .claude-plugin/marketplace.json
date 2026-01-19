@@ -1,13 +1,22 @@
 {
   "name": "arktype-claude-skill",
   "owner": {
-    "name": "Essam Almansouri"
+    "name": "Essam Almansouri",
+    "email": "me@eralmansouri.com"
+  },
+  "metadata": {
+    "description": "Arktype validation skills",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "arktype",
-      "source": "./plugins/arktype",
-      "description": "ArkType validation skill - TypeScript-like syntax for runtime type checking"
+      "source": "./",
+      "description": "ArkType validation skill - TypeScript-like syntax for runtime type checking",
+      "strict": false,
+      "skills": [
+        "./skills/arktype"
+      ]
     }
   ]
 }

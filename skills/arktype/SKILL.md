@@ -193,5 +193,5 @@ const Form = type({
 
 ## References
 
-For complete keyword tables: `references/keywords.md`
-For advanced features (match, configuration, introspection): `references/advanced.md`
+- [Keyword Table](KEYWORDS.md) - Complete keyword and fluent method tables
+- [Advanced Usage](ADVANCED.md) - Advanced features (match, configuration, introspection)
