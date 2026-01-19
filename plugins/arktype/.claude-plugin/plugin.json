@@ -1,0 +1,8 @@
+{
+  "name": "arktype",
+  "description": "ArkType runtime validation library skill - TypeScript-like syntax for runtime type checking",
+  "version": "1.0.0",
+  "author": {
+    "name": "Your Name"
+  }
+}
